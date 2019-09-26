@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/input-barang', function(){
+	return view('barang');
+});
+
+Route::post('/input-barang', 'BarangController@simpanBarang');

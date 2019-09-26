@@ -17,7 +17,7 @@ class WahyuProduk extends Migration
         Schema::create('produk', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('namaProduk');
-            $table->int('harga');
+            $table->integer('harga');
             $table->timestamps();
         });
     }

@@ -14,12 +14,12 @@ class Pembeli extends Migration
     public function up()
     {
         //
-        schema::created('pembeli', function (Blueprint $table){
-            $table->increment('id');
-            $table->string('nama');
-            $table->var('telepon');
-            $table->timestamps();
-        });
+        // Schema::created('pembeli', function (Blueprint $table){
+        //     $table->increment('id');
+        //     $table->string('nama');
+        //     $table->string('telepon');
+        //     $table->timestamps();
+        // });
     }
 
     /**
